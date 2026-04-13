@@ -1,0 +1,31 @@
+# ─── Java / Maven ─────────────────────────────────────────
+backend/target/
+backend/.mvn/
+backend/*.iml
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ─── Spring Boot ──────────────────────────────────────────
+backend/src/main/resources/application-local.properties
+
+# ─── Node / React ─────────────────────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ─── IDE ──────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+.DS_Store
+Thumbs.db
